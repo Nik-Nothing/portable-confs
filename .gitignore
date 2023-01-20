@@ -4,6 +4,8 @@
 !.*
 !.config/**
 
+!.src/**
+
 .config/dconf/
 
 .Xauthority

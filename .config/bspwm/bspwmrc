@@ -1,6 +1,7 @@
 #! /bin/sh
 setxkbmap dvorak
-picom &
+pkill picom
+picom --no-fading-openclose &
 hsetroot -solid "#162624"
 unclutter -idle 0.5 -root &
 pgrep -x sxhkd > /dev/null || sxhkd &
