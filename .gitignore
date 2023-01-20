@@ -1,17 +1,15 @@
 
 *
 
-!.*
-!.config/**
+!.gitignore
+
+!.gitconfig
 
 !.src/**
 
-.config/dconf/
+!.vimrc
 
-.Xauthority
-.bash_history
-.bash_logout
-.bash_profile
-.bashrc
-.lesshst
-.viminfo
+!.config/bspwm
+!.config/sxhkd
+!.config/qutebrowser
+!.config/htop
