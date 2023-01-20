@@ -1,6 +1,10 @@
+
 *
 
 !.*
+!.config/**
+
+.config/dconf/
 
 .Xauthority
 .bash_history
